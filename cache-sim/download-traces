@@ -1,0 +1,13 @@
+#!/bin/bash
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+rm -r "${DIR}/data"
+
+wget -P "${DIR}/data" https://jhucsf.github.io/spring2020/assign/assign03_traces/read01.trace
+wget -P "${DIR}/data" https://jhucsf.github.io/spring2020/assign/assign03_traces/read02.trace
+wget -P "${DIR}/data" https://jhucsf.github.io/spring2020/assign/assign03_traces/read03.trace
+wget -P "${DIR}/data" https://jhucsf.github.io/spring2020/assign/assign03_traces/write01.trace
+wget -P "${DIR}/data" https://jhucsf.github.io/spring2020/assign/assign03_traces/write02.trace
+wget -P "${DIR}/data" https://jhucsf.github.io/spring2020/assign/assign03_traces/gcc.trace
+wget -P "${DIR}/data" https://jhucsf.github.io/spring2020/assign/assign03_traces/swim.trace
