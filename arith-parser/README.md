@@ -1,5 +1,7 @@
 # A simple arithmetic parser
 
+Source: https://www.glassdoor.co.uk/Interview/Write-a-parser-for-arithmetic-expressions-using-4-basic-operations-and-compute-ways-of-making-24-using-4-given-numbers-and-QTN_3426747.htm
+
 Given input:
 
 ```
