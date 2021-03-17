@@ -36,3 +36,7 @@ build/
 
 # Test data
 data/
+
+# Misc
+*.pdf
+*.tar.gz
