@@ -34,6 +34,9 @@
 # CMake
 build/
 
+
+.vscode/
+
 # Test data
 data/
 
