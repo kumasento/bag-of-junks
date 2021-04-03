@@ -25,8 +25,7 @@ int main(int argc, char *argv[]) {
 
     // -- Online detection algorithm.
 
-    if (c == p[i])
-      i++;
+    if (c == p[i]) i++;
     if (i == p.size()) {
       cout << "Yay!" << endl;
       break;

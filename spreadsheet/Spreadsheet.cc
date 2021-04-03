@@ -229,7 +229,6 @@ private:
 
   pair<int, int> loc2pos(const string &loc) const {
     assert(loc.size() >= 2); // one for column, one for row.
-
     int col = loc[0] - 'A';
     int row = stoi(loc.substr(1)) - 1;
     return make_pair(row, col);
