@@ -1,3 +1,6 @@
 [submodule "os/jos"]
 	path = os/jos
 	url = https://pdos.csail.mit.edu/6.828/2017/jos.git/
+[submodule "competitive-programming"]
+	path = competitive-programming
+	url = git@github.com:kumasento/competitive-programming
