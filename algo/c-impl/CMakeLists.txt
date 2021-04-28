@@ -1,1 +1,5 @@
 add_executable(c-impl-sort sort.c)
+add_executable(c-impl-seq seq.c)
+add_executable(c-impl-tree tree.c)
+add_executable(c-impl-LRU LRU.c)
+add_executable(c-impl-calc Calculator.c)
